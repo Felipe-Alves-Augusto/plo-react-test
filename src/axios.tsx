@@ -2,7 +2,7 @@ import axios, { AxiosInstance } from "axios";
 import { InternalAxiosRequestConfig } from "axios";
 //https://api.ploi.com.br/api
 const instance: AxiosInstance = axios.create({
-    baseURL: 'http://localhost/api',
+    baseURL: 'https://api.ploi.com.br/api',
     withCredentials: true
 });
 
