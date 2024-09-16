@@ -6,7 +6,6 @@ import { MdFacebook } from "react-icons/md";
 import { FaDribbble, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { SidebarProvider, useSidebarContext } from "../context/SidebarContext";
 import classNames from "classnames";
-import AsideEnterprise from "../components/AsideEnterprise";
 
 interface NavbarSidebarLayoutProps {
   isFooter?: boolean;
