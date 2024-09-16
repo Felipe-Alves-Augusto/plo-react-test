@@ -1,8 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-"use client"
-import axios from "axios";
 import { Button, Card, Checkbox, Label, TextInput } from "flowbite-react";
-
 import { useState, type FC } from "react";
 import { login } from "../../services/auth";
 import { useAuth } from "../../context/AuthContext";

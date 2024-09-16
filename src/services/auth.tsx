@@ -1,7 +1,16 @@
 import { AxiosResponse } from 'axios';
 import axios from '../axios';
 
+interface User {
+    id: number;
+    name: string;
+    email: string;
+    picture: string
+}
+
 interface AuthResponse {
+    token: string;
+    user: User;
     email: string,
     passoword: string
 }
